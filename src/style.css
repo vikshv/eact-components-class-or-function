@@ -1,0 +1,14 @@
+.example {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f5e6e6;
+}
+
+.example--dark {
+    color: #ffffff;
+    background-color: #191919;
+}
+
+.example--light {
+    background-color: #f4f4f4;
+}
