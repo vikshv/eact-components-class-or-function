@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import StyleContext from './StyleContext';
+import StyleContext from '../../context/StyleContext';
 
 export default function UseStateExample(props) {
     const style = useContext(StyleContext);
@@ -7,7 +7,7 @@ export default function UseStateExample(props) {
 
     return (
         <div className={`example example--${style}`}>
-            <p>useState</p>
+            <p>useContext, useState</p>
             <p>Count = {count}</p>
             <button onClick={() => setCount(count + 1)}>
                 Increment
