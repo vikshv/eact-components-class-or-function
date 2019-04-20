@@ -10,6 +10,7 @@ import StatelessFunctionExample from './examples/StatelessFunctionExample';
 import UseStateExample from './examples/UseStateExample';
 import UseEffectFocusExample from './examples/UseEffectFocusExample';
 import UseContextExample from './examples/UseContextExample';
+import UseReducerExample from './examples/UseReducerExample';
 import ClassContextExample from './examples/ClassContextExample';
 
 import StyleContext from './context/StyleContext';
@@ -25,6 +26,7 @@ ReactDOM.render(
         <UseEffectFocusExample />
         <UseContextExample />
         <ClassContextExample />
+        <UseReducerExample />
     </StyleContext.Provider >,
     document.getElementById('root')
 );
